@@ -8,6 +8,10 @@
     background-color: orange;
 }
 
+.texto-preto *{
+    color: black;
+}
+
 .topo{
     padding: 20px; /* margem interna*/
     color: #d1d1d1; /* cor da fonte*/
@@ -67,6 +71,35 @@
     display: block;
     font-weight: bold;
 }
+
+.destaques {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.destaques h3 {
+    text-align: center;
+}
+
+.destaques p, h3 {
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.destaques-item {
+    background-color: rgb(255, 188, 63);
+    border-radius: 3px;
+}
+
+
+.destaques-item img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    border: 3px solid orange;
+}
+
 
 /* .menu-fluido{
     border-top: 1px solid #4e4e4e;/* borda superior  }*/
