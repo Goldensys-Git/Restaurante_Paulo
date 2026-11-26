@@ -98,6 +98,18 @@
     transition: 0.5s;
 } */
 
+.contatos p{
+    display: contents;
+}
+
+.acesso-rapido h3{
+    display: contents;
+}
+
+.acesso-rapido ul li a{
+    text-decoration: none;
+}
+
 .principal{
     min-height: 300px;
 }
